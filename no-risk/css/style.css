@@ -580,8 +580,8 @@ input:focus::placeholder {
 
   90% {
     opacity: 0;
-    -webkit-transform: translateX(-60px) skew(-10deg);
-            transform: translateX(-60px) skew(-10deg);
+    -webkit-transform: translateX(-100px) skew(-10deg);
+            transform: translateX(-100px) skew(-10deg);
   }
 
   100% {
@@ -598,8 +598,8 @@ input:focus::placeholder {
 
   90% {
     opacity: 0;
-    -webkit-transform: translateX(-60px) skew(-10deg);
-            transform: translateX(-60px) skew(-10deg);
+    -webkit-transform: translateX(-100px) skew(-10deg);
+            transform: translateX(-100px) skew(-10deg);
   }
 
   100% {
@@ -668,8 +668,8 @@ input:focus::placeholder {
 
   90% {
     opacity: 0;
-    -webkit-transform: translateX(-60px) skew(-10deg);
-            transform: translateX(-60px) skew(-10deg);
+    -webkit-transform: translateX(-100px) skew(-10deg);
+            transform: translateX(-100px) skew(-10deg);
   }
 
   100% {
@@ -686,8 +686,8 @@ input:focus::placeholder {
 
   90% {
     opacity: 0;
-    -webkit-transform: translateX(-60px) skew(-10deg);
-            transform: translateX(-60px) skew(-10deg);
+    -webkit-transform: translateX(-100px) skew(-10deg);
+            transform: translateX(-100px) skew(-10deg);
   }
 
   100% {
@@ -928,8 +928,8 @@ input:focus::placeholder {
 
   90% {
     opacity: 0;
-    -webkit-transform: translateY(-80px);
-            transform: translateY(-80px);
+    -webkit-transform: translateY(-120px);
+            transform: translateY(-120px);
   }
 
   100% {
@@ -946,8 +946,8 @@ input:focus::placeholder {
 
   90% {
     opacity: 0;
-    -webkit-transform: translateY(-80px);
-            transform: translateY(-80px);
+    -webkit-transform: translateY(-120px);
+            transform: translateY(-120px);
   }
 
   100% {
@@ -1356,6 +1356,10 @@ input:focus::placeholder {
   }
 
   .modal-info__list-link_md {
+    display: inline-block;
+  }
+
+  .modal-info__list-link_mail {
     display: inline-block;
   }
 
