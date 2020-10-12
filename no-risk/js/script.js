@@ -61,8 +61,7 @@ testWebP(function (support) {
 
 
 
-let data = fetch('https://maxline.by/api/event/line-top', {
-  // mode: 'no-cors',
-}).then(response => response.json()).then(item => console.log(item.text()));
+let data = fetch('https://maxline.by/api/event/line-top?cors=1')
+  .then(response => response.json()).then(item => console.log(item.text()));
 
 
