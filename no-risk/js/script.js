@@ -57,3 +57,15 @@ testWebP(function (support) {
         document.querySelector('body').classList.add('no-webp');
     }
 });
+
+
+//fetch
+fetch('https://maxline.by/api/event/line-top', {
+  mode: 'no-cors'
+})
+  .then(response => {
+    return response.json()
+  })
+  .then(items => {
+    return console.log(items)
+  })

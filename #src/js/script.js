@@ -41,3 +41,15 @@ const slider = new Swiper(sliderContainer, {
 
 
 @@include('webpSupport.js')
+
+
+//fetch
+fetch('https://maxline.by/api/event/line-top', {
+  mode: 'no-cors'
+})
+  .then(response => {
+    return response.json()
+  })
+  .then(items => {
+    return console.log(items)
+  })
