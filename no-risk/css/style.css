@@ -1473,6 +1473,10 @@ input:focus::placeholder {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+
+  .bet-item {
+    min-width: 325px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1548,6 +1552,7 @@ input:focus::placeholder {
 
   .bet-item {
     max-width: 290px;
+    min-width: auto;
   }
 }
 

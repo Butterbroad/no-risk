@@ -682,8 +682,12 @@
     left: 0;
     background: linear-gradient(90deg, #02B109 0%, rgba(48, 109, 4, 0) 100%);
   }
+  @media (max-width: 800px) {
+    min-width: 325px;
+  }
   @media (max-width: 740px) {
     max-width: 290px;
+    min-width: auto;
   }
   // .bet-item__title
 
