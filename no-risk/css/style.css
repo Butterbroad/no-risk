@@ -831,6 +831,8 @@ input:focus::placeholder {
 
 .bet {
   min-width: 325px;
+  max-height: 540px;
+  overflow: hidden;
   color: #fff;
   -webkit-animation: heroBet 4.7s ease forwards;
           animation: heroBet 4.7s ease forwards;
@@ -916,9 +918,24 @@ input:focus::placeholder {
   font-family: "Roboto-Medium", sans-serif;
 }
 
+.bet__wrapper {
+  max-height: 500px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #04CB24 #C4C4C4;
+}
+
+.bet__wrapper::-webkit-scrollbar {
+  background-color: #C4C4C4;
+  width: 3px;
+}
+
+.bet__wrapper::-webkit-scrollbar-thumb {
+  background-color: #04CB24;
+}
+
 .bet__row {
   max-width: 325px;
-  width: 100%;
 }
 
 @-webkit-keyframes heroBet {
@@ -1557,6 +1574,8 @@ input:focus::placeholder {
     -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    max-width: 290px;
+    margin: 0 auto;
   }
 }
 
@@ -1662,7 +1681,7 @@ input:focus::placeholder {
   }
 }
 
-@media (max-height: 786px) {
+@media (max-height: 835px) {
   .hero__column_left {
     padding-top: 60px;
   }

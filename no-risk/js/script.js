@@ -101,11 +101,11 @@ function betItems(item) {
       <div class="bet-item__about">
         <div class="bet-item__team bet-item__team_1">
           ${bet.team1}
-          <img src="./img/team-img2.png" alt="">
+          <img src="https://maxline.by/assets/club_images/${bet.logo_team_1}" alt="">
         </div>
         <div class="bet-item__team bet-item__team_2">
           ${bet.team2}
-          <img src="./img/team-img2.png" alt="">
+          <img src="https://maxline.by/assets/club_images/${bet.logo_team_2}" alt="">
         </div>
         <div class="bet-item__event-time">
           <span class="bet-item__date">${getTime(bet.time)}</span>
