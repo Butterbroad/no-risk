@@ -1238,17 +1238,11 @@ input:focus::placeholder {
   display: none;
 }
 
-.modal-info__max {
-  font-size: 14px;
-  line-height: 16px;
-  margin: 20px 0;
-  font-family: "SFProDisplay-Light", sans-serif;
-}
-
 .modal-info__law {
   font-size: 13.21px;
   font-style: italic;
   font-family: "SFProDisplay-Light", sans-serif;
+  margin: 20px 0;
 }
 
 .modal-info__btn {
@@ -1535,7 +1529,7 @@ input:focus::placeholder {
   }
 
   .bet {
-    min-width: 290px;
+    min-width: 293px;
   }
 
   .bet__head::after {
@@ -1543,16 +1537,15 @@ input:focus::placeholder {
   }
 
   .bet__head {
-    max-width: 290px;
+    max-width: 293px;
   }
 
   .bet__row {
-    max-width: 290px;
+    max-width: 293px;
   }
 
   .bet-item {
-    max-width: 290px;
-    min-width: auto;
+    min-width: 290px;
   }
 }
 
@@ -1579,7 +1572,7 @@ input:focus::placeholder {
     -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    max-width: 290px;
+    max-width: 293px;
     margin: 0 auto;
   }
 }
